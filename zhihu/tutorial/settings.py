@@ -96,3 +96,9 @@ DEFAULT_REQUEST_HEADERS = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+#REDIRECT_ENABLED = True #关掉重定向,不会重定向到新的地址
+#HTTPERROR_ALLOWED_CODES = [302,] #返回302时,按正常返回对待,可以正常写入cookie
+
+#COOKIES_DEBUG = True  #默认true
